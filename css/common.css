@@ -13,6 +13,40 @@ nav {
   background-color: #f0f0f0;
   padding: 20px;
   height: 100vh;
+  padding: 1em;
+  border: 1px solid #ccc;
+  max-width: 300px;
+  font-family: sans-serif;
+}
+
+nav h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+nav ul {
+  list-style: none;       /* ハイフン・番号などを消す */
+  padding-left: 0;
+  margin-left: 0;
+}
+
+nav ul li {
+  margin: 4px 0;
+}
+
+nav ul ul {
+  padding-left: 1.5em;     /* サブ項目をインデント */
+}
+
+/* リンクスタイル */
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #007acc;
 }
 
 /* メインコンテンツ */
