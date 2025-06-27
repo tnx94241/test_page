@@ -9,6 +9,14 @@ body {
 
 /* サイドメニュー */
 nav {
+  position: fixed;       /* ← 画面に固定 */
+  top: 0;                /* 上端に配置 */
+  left: 0;               /* 左端に配置 */
+  overflow-y: auto;      /* 長い目次はスクロール */
+  background-color: #f5f5f5;
+  border-right: 1px solid #ccc;
+  padding: 1em;
+  box-sizing: border-box;
   width: 200px;
   background-color: #f0f0f0;
   padding: 20px;
@@ -51,7 +59,7 @@ nav a:hover {
 
 /* メインコンテンツ */
 main {
-  flex: 1;
+  margin-left: 210px;
   padding: 20px;
 }
 
