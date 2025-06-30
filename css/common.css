@@ -6,6 +6,11 @@ body {
   font-family: sans-serif;
 }
 
+/* ✅ 新しく container クラスを使って配置管理 */
+.container {
+  position: relative;
+}
+
 /* サイドメニュー */
 nav {
   position: fixed;       /* ← 画面に固定 */
@@ -58,7 +63,7 @@ nav a:hover {
 
 /* メインコンテンツ */
 main {
-  margin-left: 210px;
+  margin-left: 220px;
   padding: 20px;
 }
 
