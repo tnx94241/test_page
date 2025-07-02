@@ -9,6 +9,12 @@
 <body>
   <div class="container">
     {% include nav.html %}
+
+    <!-- ポップアップ画像表示エリア（どのページでも表示される） -->
+    <div id="image-popup-overlay">
+      <img id="image-popup" src="" alt="">
+    </div>
+
     <main>
       {{ content }}
     </main>
