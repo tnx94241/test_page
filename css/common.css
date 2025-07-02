@@ -108,8 +108,11 @@ a {
   display: block;
   margin: 0 auto; /* 中央寄せにしたい場合 */
   cursor: zoom-in;
-  transition: transform 0.2s;
+  /* transition: transform 0.2s; */
 }
+
+/*
 .popup-image:hover {
   transform: scale(1.02);
 }
+*/
