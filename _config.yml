@@ -1,2 +1,5 @@
 title: My Site
 markdown: kramdown
+
+include:
+  - images
