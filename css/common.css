@@ -103,6 +103,10 @@ a {
 
 /* ポップアップ対象画像のスタイル（任意） */
 .popup-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* 中央寄せにしたい場合 */
   cursor: zoom-in;
   transition: transform 0.2s;
 }
