@@ -3,3 +3,4 @@ markdown: kramdown
 
 include:
   - images
+  - js
