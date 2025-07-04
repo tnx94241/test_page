@@ -115,6 +115,11 @@ a {
   white-space: nowrap !important;
 }
 
+/* popup-trigger クラスだけ inline に戻す */
+a.popup-trigger {
+  display: inline !important;
+  margin: 0 !important;
+}
 
 /*
 .popup-image:hover {
