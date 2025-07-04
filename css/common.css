@@ -140,3 +140,8 @@ nav .submenu {
   outline: 2px solid #007acc;
 }
 
+.scroll-link.active {
+  font-weight: bold;
+  color: #007acc;
+  text-decoration: underline;
+}
