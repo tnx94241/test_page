@@ -145,3 +145,9 @@ nav .submenu {
   color: #007acc;
   text-decoration: underline;
 }
+
+nav a.active {
+  font-weight: bold;
+  color: #007acc;
+}
+
