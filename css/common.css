@@ -111,6 +111,11 @@ a {
   /* transition: transform 0.2s; */
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
+
 /*
 .popup-image:hover {
   transform: scale(1.02);
