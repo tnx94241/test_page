@@ -121,8 +121,22 @@ a.popup-trigger {
   margin: 0 !important;
 }
 
-/*
-.popup-image:hover {
-  transform: scale(1.02);
+nav .submenu {
+  margin-left: 1.5em;
+  list-style: none;
+  padding-left: 0;
 }
-*/
+
+.toggle-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1em;
+  cursor: pointer;
+  color: #007acc;
+}
+
+.toggle-btn:focus {
+  outline: 2px solid #007acc;
+}
+
